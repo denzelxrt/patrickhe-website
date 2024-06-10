@@ -9,26 +9,14 @@ export default function Home() {
     <main className="py-4">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <section className="space-y-4 py-4">
-        <p className="font-light text-muted-foreground">Hey there, my name is Patrick He!</p>
+        <p className="font-light text-muted-foreground">Hey there, my name is Denzel 👋</p>
         <p className="font-light">
-          I'm a Computer Engineering student at the University of Waterloo, developing and exploring fullstack, firmware, and machine learning projects.
-        </p>
-        <p className="font-light">
-          For app development, my main technologies are: {" "}
-          <span className="font-semibold">Next.js, React.js,</span>{" "}
-          <span className="font-semibold"></span>and{" "}
-          <span className="font-semibold">Typescript</span>.
-        </p>
-        <p className="font-light">
-          With firmware & machine learning, my primary tools are: {" "}
-          <span className="font-semibold">Arudino, OpenCV,</span>{" "}
-          <span className="font-semibold"></span>and{" "}
-          <span className="font-semibold">Tensorflow</span>.
+          I'm a Computer Sci enthusiast, iam intrested in machine learning projects and automation (stuff along those lines)
         </p>
         <SocialMediaIcons />
       </section>
       <section className="space-y-4 py-4">
-        <HeadingText>Projects</HeadingText>
+        <HeadingText>My Random Github Repos</HeadingText>
         <div className="flex flex-col items-end gap-4">
           <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2">
             <Projects />
